@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    background-color:#212121;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 120px;
+}
+.logo{
+    padding: 40px 0px 0px 30px;
+}
+.logo h2{
+    color: #e6db74;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+  .navbar .logo .user-name{
+    color: #9a99ff;
+    font-size: 24px;
+    padding: 3px 0 0 33px;
+    font-weight: normal;
+}
+
+.nav-items a{
+    font-size: 24px;
+    color: #e6db74;
+    text-decoration: none;
+}
+.nav-items li{
+    list-style: none;
+}
+.nav-items{
+    display: flex;
+    gap: 50px;
+    float: right;
+    margin-top: -30px;
+    padding-right: 80px;
+}
+
+.header-section .small-text{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    color: white;
+}
+ .header-section .skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 130px;
+    font-weight: normal;
+    padding-top: 35px;
+    color: white;
+}
+.header-section .skills .text{
+    color: #e6db74;
+    padding: 0 20px;
+}
+.header-section  .scroll a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    margin-left: -130px;
+    padding-bottom: 100px;
+    background: transparent;
+}
+.header-section .bg1{
+    background-image: url(Images/priya-coding.jpg);
+    min-height: 32rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 50px ;
+}
+
+.about-section h5 {
+color: #9a99ff;
+align-items: center; 
+height: 20px; 
+padding-top: 9%;
+margin-left: -20px;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.about-section h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 7vw;
+    font-weight: normal;
+}
+
+.about-section p{
+    color:#e6db74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.about-section .touch_me, .contact-section .touch_me{
+  color: white;
+  background-color: #40C3F2;
+  margin: 0 0 0 44.1%;
+  width: 11.5%;
+  height: 66px;
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+}
+.about-section .touch_me:hover, .contact-section .touch_me:hover{
+  background-color: #9a99ff;
+  transition: 0.3s ease-in-out;
+}
+
+  .grid-container{
+    padding: 150px 120px 0 160px;
+  }
+  .grid-inner{
+    display: flex;
+  }
+  .grid-inner .grid-1{
+    color:white;
+    font-size: 2.6vw;
+    text-decoration: underline;
+    padding: 80px 60px 20px 60px;
+    width: 300%;
+    border-top: 0.5px solid rgb(60,60,60);
+    border-right: 0.5px solid rgb(60,60,60);
+  }
+  .grid-inner .grid-2{
+    color:#e6db74;
+    padding: 80px 40px 20px 60px;
+    width: 340%;
+    border-top: 0.5px solid rgb(60,60,60);
+  }
+
+  .portfolio-section h5{
+    color: #9a99ff;
+    align-items: center; 
+    height: 20px; 
+    padding-top: 9%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-section h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 7vw;
+    font-weight: normal;
+  }
+
+  .portfolio-section p{
+    color:#e6db74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+  
+  .slick-prev{
+    position: relative;
+    left: 80%;
+    width: 80px;
+    height: 80px;
+  }
+  .slick-next{
+    position: absolute;
+    top: 0;
+    left:87%;
+    width: 80px;
+    height: 80px;
+  }
+  .slide img{
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 10.25%;
+  }
+  .btn{
+    margin-bottom: 4%;
+  }
+  .btn i{
+    color: #212121;
+    background-color: white;
+  }
+
+  .services-section h5{
+    color: #9a99ff;
+    align-items: center; 
+    height: 20px; 
+    padding-top: 9%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-section h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 7vw;
+    font-weight: normal;
+  }
+
+  .services-section p{
+    color:#e6db74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .box-1{
+    width: 90%;
+    height: 100px;
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+  }
+  .box-1 .skills{
+    color: white;
+    height: 98px;
+    background-color: rgb(41, 41, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 82px;
+  }
+  .box-1 .skills .box-text-1{
+    color: #9a99ff;
+    background-color: inherit;
+    
+  }
+
+  .box-2{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(41, 41, 4);
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .box-2 .skills{
+    color: white;
+    height: 98px;
+    background-color: rgb(41, 41, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 82px;
+  }
+  .box-2 .skills .box-text-2{
+    color: #40C3F2;
+    background-color: inherit;
+    
+  }
+
+  .box-3{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(41, 41, 4);
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .box-3 .skills{
+    color: white;
+    height: 98px;
+    background-color: rgb(41, 41, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 82px;
+  }
+  .box-3 .skills .box-text-3{
+    color: #e6db74;
+    background-color: inherit;
+  }
+
+  .bg2{
+    background-image: url(Images/priyanshu-coding\ 2.jpg);
+    min-height: 32rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 50px ;
+    margin-top: 165px;
+}
+
+.contact-section h5{
+  color: #9a99ff;
+  align-items: center; 
+  height: 20px; 
+  padding-top: 9%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 7vw;
+  font-weight: normal;
+}
+
+.contact-section p{
+    color:#e6db74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+.contact-info{
+  width: 80%;
+  margin-left: 10%;
+}
+
+input::-webkit-input-placeholder {
+  color: #9a99ff;
+}
+textarea::placeholder {
+  color: #9a99ff;
+}
+
+
+.contact-info .name{
+  width: 100%;
+  height: 70px;
+}
+
+.contact-info .name #name{
+  width: 100%;
+  height: 70px;
+  color: #9a99ff;
+  font-size: 25px;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+
+
+.contact-info .email{
+  width: 100%;
+  height: 70px;
+  margin-top: 25px;
+}
+
+.contact-info .email #email{
+  width: 100%;
+  height: 70px;
+  color: #9a99ff;
+  font-size: 25px;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+
+.contact-info textarea{
+  width: 100%;
+  height: 120px;
+  margin-top: 25px ;
+  color: #9a99ff;
+  font-size: 25px;
+  border-width: 0 0 1px;
+  border-style: solid;
+  margin-bottom: 35px;
+}
+
+.bottom-navbar {
+  width: 100%;
+  height: 130px;
+  border: 1px solid gray;
+  margin-top: 80px;
+  padding-left: 36%;
+  padding-top: 40px;
+  border-left: none;
+  border-right: none;
+}
+
+.bottom-navbar a {
+  align-items: center;
+  color: #9a99ff;
+  margin: 10px 20px ;
+  text-decoration: none;
+  font-size: 23px;
+}
+.bottom-navbar a:hover{
+  color:#40C3F2;
+}
+
+.bottom-navbar p{
+  margin-left: -55%;
+  line-height: 2;
+}
